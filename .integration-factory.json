@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "5e67f3b8b62cb3e9a87a2731c4b6b948ed1516e7fe055aaef2d48e4ec76f5f68",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://developer.acronis.com/doc/account-management/v2/reference/openapi.json"
+  ],
+  "id": "acronis-cyber-protect-cloud-ca18-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Acronis Cyber Protect Cloud MCP setup and connection checker",
+  "description": "Generate Acronis Cyber Protect Cloud MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "acronis-cyber-protect-cloud-ca18",
+  "appName": "Acronis Cyber Protect Cloud",
+  "providerDocs": "https://developer.acronis.com/doc/account-management/v2/reference/openapi.json",
+  "providerWebsite": "https://www.acronis.com/en/products/cloud/cyber-protect/",
+  "authentication": {
+    "type": "token_exchange",
+    "requiredCredentialFields": [
+      "provider_exchange_credentials"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://developer.acronis.com/doc/account-management/v2/guide/getting-started/authenticating.html",
+    "tenantRequired": true,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-acronis-cyber-protect-cloud-ca18-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
