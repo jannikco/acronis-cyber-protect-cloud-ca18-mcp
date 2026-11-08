@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-acronis-cyber-protect-cloud-ca18",
+      "description": "Connect AI agents to Acronis Cyber Protect Cloud using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-acronis-cyber-protect-cloud-ca18/SKILL.md": "32c3ee89bae37fedab2e9cd78fb4516f4077702b6c376e73b9ba165cda02e204"
+  }
+}

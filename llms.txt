@@ -1,0 +1,8 @@
+# Acronis Cyber Protect Cloud MCP setup and connection checker
+
+- [Quick start](README.md)
+- [Capabilities](capabilities.json)
+- [Agent instructions](AGENTS.md)
+- [Task skill](.agents/skills/pipmcp-acronis-cyber-protect-cloud-ca18/SKILL.md)
+
+Actual operations require a scoped PipMCP API key and hosted configuration.

@@ -1,37 +1,60 @@
 {
   "schemaVersion": 1,
-  "status": "ready",
-  "verification": "mock-only",
-  "releaseEligible": true,
-  "maintainer": "jannikco",
-  "license": "MIT",
-  "sourceRevision": "5e67f3b8b62cb3e9a87a2731c4b6b948ed1516e7fe055aaef2d48e4ec76f5f68",
-  "evidence": [
-    "Source-backed provider setup metadata",
-    "Offline configuration and MCP protocol tests"
-  ],
-  "provenance": [
-    "https://developer.acronis.com/doc/account-management/v2/reference/openapi.json"
-  ],
   "id": "acronis-cyber-protect-cloud-ca18-mcp",
   "kind": "mcp-setup",
   "product": "pipmcp",
   "title": "Acronis Cyber Protect Cloud MCP setup and connection checker",
-  "description": "Generate Acronis Cyber Protect Cloud MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "description": "Prepare Acronis Cyber Protect Cloud for AI workflows with a PipMCP setup doctor, authenticated discovery and coding-agent instructions.",
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": false,
   "operationIds": [],
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "attributionSlug": "github-acronis-cyber-protect-cloud-ca18-mcp",
+  "sourceRevision": "815e0e8a50031c249dc956d25b5406e45e871cfd25fa99cd427aa4c13be4d86b",
+  "qualityVersion": 2,
+  "artifactType": "setup",
+  "evidence": [
+    "Gateway HTTP transport fixtures",
+    "Generated stdio wrapper discovery/call fixtures"
+  ],
+  "provenance": [
+    "https://developer.acronis.com/doc/account-management/v2/reference/openapi.json"
+  ],
+  "utility": {
+    "problem": "Prepare Acronis Cyber Protect Cloud and inspect your hosted setup",
+    "output": "Offline setup plan and authenticated discovery diagnostics"
+  },
   "appSlug": "acronis-cyber-protect-cloud-ca18",
   "appName": "Acronis Cyber Protect Cloud",
-  "providerDocs": "https://developer.acronis.com/doc/account-management/v2/reference/openapi.json",
-  "providerWebsite": "https://www.acronis.com/en/products/cloud/cyber-protect/",
-  "authentication": {
-    "type": "token_exchange",
-    "requiredCredentialFields": [
-      "provider_exchange_credentials"
-    ],
-    "requiredHeaderNames": [],
-    "helpUrl": "https://developer.acronis.com/doc/account-management/v2/guide/getting-started/authenticating.html",
-    "tenantRequired": true,
-    "accountParameterNames": []
-  },
-  "attributionSlug": "github-acronis-cyber-protect-cloud-ca18-mcp"
+  "maintenanceOnly": true,
+  "executionAuthority": "pipmcp-gateway",
+  "version": "1.0.0",
+  "agentReady": true,
+  "capabilityEvidence": {
+    "local": {
+      "level": "Tested",
+      "operations": [
+        {
+          "name": "gateway_transport",
+          "level": "Tested",
+          "method": "contract-fixture",
+          "evidenceRefs": [
+            "Generated gateway/stdio fixtures"
+          ]
+        }
+      ],
+      "evidenceRefs": [
+        "Generated gateway/stdio fixtures"
+      ],
+      "mode": "local"
+    },
+    "managed": {
+      "level": "Documented",
+      "operations": [],
+      "evidenceRefs": [],
+      "mode": "managed"
+    }
+  }
 }
